@@ -1,3 +1,5 @@
+
+//Promise.all()   用法处理多个异步任务同时请求
 let p1 = new Promise((resolve,reject)=>{
     let obj1={"aaa":111}
     setTimeout(()=>{
