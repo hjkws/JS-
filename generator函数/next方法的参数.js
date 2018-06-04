@@ -70,18 +70,11 @@ let obj={
 }
 var result = G();
 var aa = (result.next()).value;
-
-
-
 aa.then(res=>{
     console.log(res)
 });
 
-var ss =async function(){
-    var data1 = await res1();
-    console.log(data1)
 
-};
 
 
 
